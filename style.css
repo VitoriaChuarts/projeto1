@@ -9,12 +9,15 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    font-size: 20px;
 }
 
 h1 {
@@ -22,4 +25,50 @@ h1 {
     color: #422903;
     font-weight: bold;
     margin: 0;
+}
+
+a:hover {
+    color: #002eac;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #096101;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    color: #048d0b;
+    line-height: 1.6;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+
+.services-list li {
+    padding: 15px;
+    border: 1px solid #0905eb;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.services-list li:hover {
+    background-color: #20e2d2;
+    transform: translateY(-5px);
 }
