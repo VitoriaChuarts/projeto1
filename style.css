@@ -1,0 +1,25 @@
+header {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    color: #422903;
+    font-weight: bold;
+    margin: 0;
+}
