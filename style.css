@@ -94,21 +94,19 @@ body {
 }
 
 
+
+
 .cta {
-    text-align: center;
-    text-align: center;
+    text-align: center;;
     padding: 50px 20px;
     margin-top: 50px;
 }
 
 .cta h2 {
     font-size: 30px;
+    color: green
 }
 
-.cta p {
-    font-size: 20px;
-    margin: 20px;
-}
 
 .cta a {
     display: inline-block;
@@ -120,6 +118,11 @@ body {
     color: rgb(44, 2, 158);
 }
 
+.cta p { 
+    font-size: 20px;
+    text-align: center;
+    color:rgb(3, 49, 199)
+}
 .cta a:hover {
     background-color: rgb(4, 38, 189);
     color: rgb(241, 238, 6);
@@ -148,3 +151,123 @@ body {
 .services p{
     color: white
 }
+
+.benefits p{
+    color: rgb(250, 251, 255)
+}
+
+.benefits li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #000d13;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(49, 149, 207);
+    color: rgb(241, 238, 6);
+    
+}
+
+.testimonials h3{
+    text-align: left;
+    color: #1F1F1F
+}
+.testimonials p {
+    margin: 10px 0;
+    color: #d1b76f
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: white;
+    border: 1px solid #ffe696;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center; 
+    
+  
+}
+
+.testimonial h3 {
+    margin: 15px 0 5px;
+}
+.testimonial span {
+    font-size: 14px;
+}
+
+.testimonial p:first-child {
+    font-size: 18px;
+    color: #D4A72C;
+}
+
+.testimonial p:nth-child(2) {
+    color: #333333;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px
+}
+
+.contact p{
+    color: rgb(4, 47, 165)
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #1f3d2b
+}
+
+footer p {
+    color:white
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.social-media a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media a:hover {
+    color: #7ed957;
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    width: 45%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.hero-image:hover {
+    transform: scale(1.02);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 50px;
+}
+
