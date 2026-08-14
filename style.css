@@ -329,3 +329,75 @@ footer p {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* MENU */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* SEÇÕES */
+    section {
+        padding: 40px 20px;
+    }
+
+    /* SERVIÇOS */
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .services-list li {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* BENEFÍCIOS */
+    .benefits-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* DEPOIMENTOS */
+    .testimonials-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* GALERIA */
+    .gallery-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery-list img {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* CONTATO */
+    .contact {
+        text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+}
+
