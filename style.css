@@ -378,10 +378,9 @@ footer p {
 
     /* GALERIA */
     .gallery-list {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
 
     .gallery-list img {
         width: 90%;
@@ -398,6 +397,17 @@ footer p {
         text-align: center;
         padding: 30px 20px;
     }
+
+    .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+    .hero img {
+    width: 100%;
+    height: auto;
+}
 
 }
 
