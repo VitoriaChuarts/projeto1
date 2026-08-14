@@ -3,7 +3,7 @@ display: flex;
 justify-content: space-between;
 padding: 20px;
 align-items: center;
-border-bottom: 1px solid #0059ce;
+border-bottom: 1px solid #00ce11;
 }
 
 ul {
@@ -16,14 +16,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #06b90f;
     font-weight: bold;
     font-size: 20px;
 }
 
 h1 {
     font-size: 30px;
-    color: #422903;
+    color: #05f311;
     font-weight: bold;
     margin: 0;
 }
@@ -40,16 +40,19 @@ main {
 
 h2 {
     font-size: 28px;
-    color: #125509;
+    color: #29f30e;
     margin-bottom: 20px;
 }
 
 p{
     font-size: 18px;
-    color: #048d0b;
+    color: #06b90f;
     line-height: 1.6;
 }
 
+.services h3 {
+    color:#06b90f
+}
 .services-list {
     display: flex;
     flex-direction: column;
@@ -79,20 +82,25 @@ p{
 }
 
 body {
-    margin: 0px;
-    background-color:rgb(206, 240, 229)
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Assets/img/telanicial.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
     
-}
-
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-}
-
 .hero h2 {
     font-size: 60px;
+    white-space: nowrap;
 }
 
+.hero p {
+    text-align:inherit
+}
+
+.hero a {
+    text-align: center
+}
 
 
 
@@ -115,13 +123,13 @@ body {
     border: 1px solid;
     border-radius: 8px;
     background-color: #047e0e;
-    color: rgb(44, 2, 158);
+    color: rgb(13, 168, 230);
 }
 
 .cta p { 
     font-size: 20px;
     text-align: center;
-    color:rgb(3, 49, 199)
+    color:rgb(13, 160, 245)
 }
 .cta a:hover {
     background-color: rgb(4, 38, 189);
@@ -166,7 +174,13 @@ body {
     width: 300px;
     background-color: rgb(49, 149, 207);
     color: rgb(241, 238, 6);
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* CORRIGIDO: trocado .benefits-li por .benefits li:hover */
+.benefits li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .testimonials h3{
@@ -218,7 +232,7 @@ body {
 }
 
 .contact p{
-    color: rgb(4, 47, 165)
+    color: rgb(3, 179, 248)
 }
 
 .contact-info {
@@ -269,5 +283,31 @@ footer p {
     justify-content: center;
     gap: 50px;
     padding: 70px 50px;
+    text-align: left;
+    padding: 60px 10px;
+}
+
+.gallery-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-list img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-list img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
