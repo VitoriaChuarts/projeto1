@@ -4,6 +4,24 @@ justify-content: space-between;
 padding: 20px;
 align-items: center;
 border-bottom: 1px solid #00ce11;
+display: flex;
+align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.logo h1 {
+    margin: 0;
 }
 
 ul {
