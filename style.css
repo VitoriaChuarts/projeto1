@@ -382,10 +382,21 @@ footer p {
     gap: 20px;
 }
 
-    .gallery-list img {
-        width: 90%;
-        max-width: 400px;
-    }
+.gallery-list img {
+    width: 90%;
+    max-width: 400px;
+}
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
 
     /* CONTATO */
     .contact {
@@ -398,15 +409,6 @@ footer p {
         padding: 30px 20px;
     }
 
-    .hero {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-}
-
-    .hero-image {
-    width: 100%;
-    height: auto;
-}
+    
 }
 
